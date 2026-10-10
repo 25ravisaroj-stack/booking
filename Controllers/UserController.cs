@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace BookingSystemApi.Models;
 
 
-[ApiController]
+[ApiController]   
 [Route("api/[controller]")]
 public class UserController : ControllerBase
 {
