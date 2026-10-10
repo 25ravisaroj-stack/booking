@@ -4,7 +4,7 @@ namespace BookingSystemApi.Models;
 
 
 [ApiController]   
-[Route("api/[controller]")]
+[Route("api/[controller]")]  
 public class UserController : ControllerBase
 {
     private readonly IUserService _service;
