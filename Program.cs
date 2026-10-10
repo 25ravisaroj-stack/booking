@@ -56,7 +56,7 @@ builder.Services.AddScoped<IUserBuilder, UserBuilder>();
 
 builder.Services.AddScoped<IUserRepository, UserRepository>();
 
-builder.Services.AddScoped<IUserService, UserService>();
+builder.Services.AddScoped<IUserService, UserService>(); 
 builder.Services.AddScoped<ITokenService, TokenService>();
 
 var connectionString =
