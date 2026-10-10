@@ -19,7 +19,7 @@ jobs:
      - name: build project
        run: dotnet build --configuration Release --no-restore
      - name: run test
-       run: echo ("project runing test completed")
+       run: echo "project runing test completed"
      - name:  publish
        run: dotnet publish -c Release -o ./publish
      
